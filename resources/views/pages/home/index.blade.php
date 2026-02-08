@@ -2,12 +2,8 @@
     <!-- Hero Section -->
     <section class="min-h-screen bg-gradient-to-br from-green-50 via-yellow-50 to-gray-100 flex items-center justify-center px-4 md:px-8">
         <div class="max-w-5xl mx-auto text-center">
-            <div class="mb-8 animate-fade-in">
-                <div class="inline-block p-3 bg-green-100 rounded-full mb-6">
-                    <svg class="w-12 h-12 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M10.5 1.5H3.75A2.25 2.25 0 001.5 3.75v12.5A2.25 2.25 0 003.75 18.5h12.5a2.25 2.25 0 002.25-2.25V9.5m-15-4h12m-12 4v8m12-8v8M5 5.5a1 1 0 11-2 0 1 1 0 012 0z"/>
-                    </svg>
-                </div>
+            <div class="mb-5 animate-fade-in">
+                <img src="{{ asset('images/logo.png') }}" alt="Self Reminder Logo" class="w-32 h-32 mx-auto mb-6">
             </div>
             
             <h1 class="text-5xl md:text-7xl font-bold mb-6 text-gray-800">
